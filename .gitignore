@@ -1,0 +1,17 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+.idea/
+
+
+.DS_Store
+dist
+*.iml
+target/
+node_modules/
+elm-stuff/
+

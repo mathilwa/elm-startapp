@@ -1,0 +1,22 @@
+{
+  "name": "elm-startapp",
+  "version": "0.0.1",
+  "author": "Mathilde Wærstad",
+  "description": "Startkode for en Elm-app",
+  "repository": "https://github.com/mathilwa/elm-startapp.git",
+  "homepage": "https://github.com/mathilwa/elm-startapp",
+  "dependencies": {
+    "elm-hot-loader": "^0.3.3",
+    "elm-webpack-loader": "^3.0.6",
+    "file-loader": "^0.9.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --port 3000 --hot"
+  }
+}
